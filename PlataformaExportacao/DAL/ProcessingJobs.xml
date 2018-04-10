@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>	
+<ProcessingJobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProcessingJob>
+    <IdJob>1</IdJob>
+    <JobName>CV4S001S</JobName>
+    <JobDescription>This job executes the copy of the suitability file.</JobDescription>
+    <JobOperationMode>0</JobOperationMode>
+    <IsJobActiveFlag>true</IsJobActiveFlag>
+    <BackupFolderPath>C:\USERS\FRAZEAL\SOURCE\REPOS\PLATAFORMAEXPORTACAO\SERVER\BACKUP</BackupFolderPath>
+    <InputFileFolderPath>C:\USERS\FRAZEAL\SOURCE\REPOS\PLATAFORMAEXPORTACAO\SERVER\INPUT</InputFileFolderPath>
+    <InputFileName>SUITABILITY</InputFileName>
+    <InputFileExtension>.TXT</InputFileExtension>
+    <OutputFileFolderPath>C:\USERS\FRAZEAL\SOURCE\REPOS\PLATAFORMAEXPORTACAO\SERVER\OUTPUT</OutputFileFolderPath>
+    <OutputFileName>SUITABILITY</OutputFileName>
+    <OutputFileExtension>.TXT</OutputFileExtension>
+    <OutputFileSeparatorChar xml:space="preserve"> </OutputFileSeparatorChar>
+    <FileExportDateTimeFlag>true</FileExportDateTimeFlag>
+    <FileProcessingDateTimeFlag>false</FileProcessingDateTimeFlag>
+  </ProcessingJob>
+  <ProcessingJob>
+    <IdJob>2</IdJob>
+    <JobName>CV4S002S</JobName>
+    <JobDescription>This job moves the BA file.</JobDescription>
+    <JobOperationMode>1</JobOperationMode>
+    <IsJobActiveFlag>true</IsJobActiveFlag>
+    <BackupFolderPath>C:\USERS\FRAZEAL\SOURCE\REPOS\PLATAFORMAEXPORTACAO\SERVER\BACKUP</BackupFolderPath>
+    <InputFileFolderPath>C:\USERS\FRAZEAL\SOURCE\REPOS\PLATAFORMAEXPORTACAO\SERVER\INPUT</InputFileFolderPath>
+    <InputFileName>BA</InputFileName>
+    <InputFileExtension>.TXT</InputFileExtension>
+    <OutputFileFolderPath>C:\USERS\FRAZEAL\SOURCE\REPOS\PLATAFORMAEXPORTACAO\SERVER\OUTPUT</OutputFileFolderPath>
+    <OutputFileName>BA</OutputFileName>
+    <OutputFileExtension>.TXT</OutputFileExtension>
+    <OutputFileSeparatorChar xml:space="preserve"> </OutputFileSeparatorChar>
+    <FileExportDateTimeFlag>true</FileExportDateTimeFlag>
+    <FileProcessingDateTimeFlag>false</FileProcessingDateTimeFlag>
+  </ProcessingJob>
+  <ProcessingJob>
+    <IdJob>3</IdJob>
+    <JobName>CV4S003S</JobName>
+    <JobDescription>This job extract data from RAROC and writes to a txt file.</JobDescription>
+    <JobOperationMode>3</JobOperationMode>
+    <IsJobActiveFlag>true</IsJobActiveFlag>
+    <ProcedureName>Procedure</ProcedureName>
+    <OutputFileFolderPath>C:\USERS\FRAZEAL\SOURCE\REPOS\PLATAFORMAEXPORTACAO\SERVER\OUTPUT</OutputFileFolderPath>
+    <OutputFileName>RAROC</OutputFileName>
+    <OutputFileExtension>.CSV</OutputFileExtension>
+    <OutputFileSeparatorChar>,</OutputFileSeparatorChar>
+    <FileExportDateTimeFlag>true</FileExportDateTimeFlag>
+    <FileProcessingDateTimeFlag>false</FileProcessingDateTimeFlag>
+  </ProcessingJob>
+</ProcessingJobs>
