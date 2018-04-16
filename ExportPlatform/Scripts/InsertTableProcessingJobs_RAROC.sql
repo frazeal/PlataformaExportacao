@@ -1,0 +1,44 @@
+﻿INSERT INTO dbo.ProcessingJobs
+(
+	JobName,
+	JobDescription,
+	JobOperationMode,
+	JobProcessingType,
+	IsJobActiveFlag,
+	ProcedureName,
+	BackupFolderPath,
+	InputFileFolderPath,
+	InputFileName,
+	InputFileExtension,
+	InputFileSeparatorChar,
+	InputFileLayout,
+	OutputFileFolderPath,
+	OutputFileName,
+	OutputFileExtension,
+	OutputFileSeparatorChar,
+	OutputFileLayout,
+	FileReferenceDateTimeFlag,
+	FileProcessingDateTimeFlag
+	)
+VALUES
+(
+	'CV4S003S',
+	'This job extract data from RAROC and writes to a txt file.',
+	0,
+	3,
+	1,
+	'Procedure',
+	'C:\Users\frazeal\source\repos\ExportPlatform\ExportPlatform\Server\BACKUP',
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	'C:\Users\frazeal\source\repos\ExportPlatform\ExportPlatform\Server\OUTPUT',
+	'RAROC',
+	'.CSV',
+	',',
+	NULL,
+	1,
+	0
+)

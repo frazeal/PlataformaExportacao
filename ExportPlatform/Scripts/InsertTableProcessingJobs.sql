@@ -1,0 +1,44 @@
+﻿INSERT INTO dbo.ProcessingJobs
+(
+	JobName,
+	JobDescription,
+	JobOperationMode,
+	JobProcessingType,
+	IsJobActiveFlag,
+	ProcedureName,
+	BackupFolderPath,
+	InputFileFolderPath,
+	InputFileName,
+	InputFileExtension,
+	InputFileSeparatorChar,
+	InputFileLayout,
+	OutputFileFolderPath,
+	OutputFileName,
+	OutputFileExtension,
+	OutputFileSeparatorChar,
+	OutputFileLayout,
+	FileReferenceDateTimeFlag,
+	FileProcessingDateTimeFlag
+	)
+VALUES
+(
+	'CV4S001S',
+	'This job executes the copy of the suitability file.',
+	0,
+	0,
+	1,
+	NULL,
+	'C:\Users\frazeal\source\repos\ExportPlatform\ExportPlatform\Server\BACKUP',
+	'C:\Users\frazeal\source\repos\ExportPlatform\ExportPlatform\Server\INPUT',
+	'SUITABILITY',
+	'TXT',
+	NULL,
+	NULL,
+	'C:\Users\frazeal\source\repos\ExportPlatform\ExportPlatform\Server\OUTPUT',
+	'SUITABILITY',
+	'CSV',
+	',',
+	NULL,
+	1,
+	0
+)

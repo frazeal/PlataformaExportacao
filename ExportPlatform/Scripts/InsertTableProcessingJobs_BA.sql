@@ -1,0 +1,44 @@
+﻿INSERT INTO dbo.ProcessingJobs
+(
+	JobName,
+	JobDescription,
+	JobOperationMode,
+	JobProcessingType, 
+	IsJobActiveFlag,
+	ProcedureName,
+	BackupFolderPath,
+	InputFileFolderPath,
+	InputFileName,
+	InputFileExtension,
+	InputFileSeparatorChar,
+	InputFileLayout,
+	OutputFileFolderPath,
+	OutputFileName,
+	OutputFileExtension,
+	OutputFileSeparatorChar,
+	OutputFileLayout,
+	FileReferenceDateTimeFlag,
+	FileProcessingDateTimeFlag
+	)
+VALUES
+(
+	'CV4S002S',
+	'This job moves the BA file.',
+	0,
+	1,
+	1,
+	NULL,
+	'C:\Users\frazeal\source\repos\ExportPlatform\ExportPlatform\Server\BACKUP',
+	'C:\Users\frazeal\source\repos\ExportPlatform\ExportPlatform\Server\INPUT',
+	'BA',
+	'TXT',
+	NULL,
+	NULL,
+	'C:\Users\frazeal\source\repos\ExportPlatform\ExportPlatform\Server\OUTPUT',
+	'BA',
+	'CSV',
+	',',
+	NULL,
+	1,
+	0
+)
